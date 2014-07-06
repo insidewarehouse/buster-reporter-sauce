@@ -4,6 +4,7 @@ module.exports = function (grunt) {
 			dist: {
 				options: {
 					testname: "buster-reporter-sauce",
+					build: process.env.TRAVIS_JOB_ID || "",
 					browsers: [
 						{ browserName: 'chrome' }
 					],
