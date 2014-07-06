@@ -1,0 +1,32 @@
+{
+  "name": "buster-reporter-sauce",
+  "version": "0.0.0",
+  "description": "Enables buster-static with SauceLabs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/grunt-cli/bin/grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insidewarehouse/buster-reporter-sauce.git"
+  },
+  "keywords": [
+    "buster",
+    "tdd",
+    "saucelabs"
+  ],
+  "author": "Dominykas Blyžė, InsideWarehouse <hello@dominykas.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/insidewarehouse/buster-reporter-sauce/issues"
+  },
+  "homepage": "https://github.com/insidewarehouse/buster-reporter-sauce",
+  "devDependencies": {
+    "buster": "0.7.x",
+    "grunt": "0.4.x",
+    "grunt-cli": "0.1.x",
+    "grunt-release": "0.7.x",
+    "grunt-saucelabs": "8.x",
+    "resolve-bin": "0.3.x"
+  }
+}
