@@ -1,6 +1,8 @@
 buster-reporter-sauce
 =====================
 
+[![Build Status](https://travis-ci.org/insidewarehouse/buster-reporter-sauce.svg?branch=master)](https://travis-ci.org/insidewarehouse/buster-reporter-sauce)
+
 Enables buster-static with SauceLabs.
 
 ## Usage ##
